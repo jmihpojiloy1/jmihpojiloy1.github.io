@@ -1,0 +1,38 @@
+header h1 {
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 85px;
+}
+body{
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body, html {
+    margin: 0%;
+    padding: 0%;
+    padding-top: 6px;
+}
+header {
+    height: 90px;
+    background-color: #919191;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+ul#menu {
+    display: flex;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 0px;
+}
+ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.about{
+    display: flex;
+    
+}
