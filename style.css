@@ -78,6 +78,7 @@ li.menu {
     justify-content: space-between;
     padding-left: 85px;
     padding-right: 85px;
+    height: 719px;
 }
 .cf {
     padding-left: 85px;
@@ -86,11 +87,10 @@ li.menu {
 .vasya {
     padding: 0;
     margin-top: 5px;
-    /*font-size: 2em;*/
+    font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 15px;
     padding-right: 85px;
-    
 }
 .ds {
     width: 100%;
