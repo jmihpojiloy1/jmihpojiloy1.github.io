@@ -1,3 +1,14 @@
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.block img {
+    width: 518px;
+}
+footer img {
+    width: 68px;
+}
+h1 {
+    width: fit-content;
+    margin: auto;
 }
