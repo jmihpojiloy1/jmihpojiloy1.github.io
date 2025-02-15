@@ -1,6 +1,9 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body { 
     background-color: rgb(0, 0, 0);
     color: white;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
 }
 .block img {
     width: 518px;
@@ -11,4 +14,99 @@ footer img {
 h1 {
     width: fit-content;
     margin: auto;
+    font-size: 64px;
+  
+}
+.grt {
+    display: flex;
+    flex-direction:row;
+    justify-content: center; 
+    align-items: center;
+    
+}
+.dor {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    font-size:37px;
+}
+.jwl {
+    width:518px;
+
+}
+.rpg {
+    font-size:48px;
+}
+.grn {
+    font-size:37px;
+}
+.kdg {
+    display: flex;
+    flex-direction:column;
+}
+.ytg {
+    color: black;
+    font-size: 36px;
+}
+.ytl {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.uik {
+    background-color: #D03844;
+    color: white;
+    font-size: 48px;
+}
+.thk {
+    color: #CECECE;
+    background-color: #B4B4B4;
+    font-style: italic;
+}
+.sis {
+    background-color: white;
+    font-size: 24px;
+}
+h2 {
+    font-size: 64px;
+}
+.fgt {
+    display: flex;
+    flex-direction:row;
+    background-color: #D9D9D9;
+    justify-content: center; 
+    align-items: center;
+}
+.dpt {
+    color: #000000;
+    background-color: white;
+    font-size: 24px;
+}
+.ftu {
+    color: #CECECE;
+}
+.chk {
+    color: #000000;
+}
+footer {
+    display: flex;
+    flex-direction:row;
+}
+.gvn {
+    font-style: italic;
+    font-size: 24px;
+}
+.zhp {
+    font-size: 26px;
+}
+.kal {
+    font-size: 26px;
+}
+.ppp {
+    color: #808080;
 }
