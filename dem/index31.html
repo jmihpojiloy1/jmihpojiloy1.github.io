@@ -139,21 +139,19 @@
 		  	let emailPattern = '@';
 		  	let numberField = document.getElementsByClassName("dpt")[0];
 			let length1 = numberField.value.length;
-			console.log(nameField.value, emailField.value, numberField.value, length1);
-			console.log("Уважаемый", nameField.value,"! Спасибо за оставленные данные, мы свяжемся с вами по телефону", numberField.value," и отправим письмо на", emailField.value);
-			if ((emailField.value.includes(emailPattern)) && ((length1 === 10) && (!(emailField.value === "")) && (!(nameField.value === "")) && (!(numberField.value === "+7")))) {
-				alert("Уважаемый", nameField,"! Спасибо за оставленные данные, мы свяжемся с вами по телефону", numberField," и отправим письмо на", emailField)
+		  	console.log(nameField.value, emailField.value, numberField.value, length1);
+			  console.log(length1, !(length1 === 10));
+			if ((!emailField.value.includes(emailPattern)) && (!emailField === "") && (!namelField.value === "") && (!numberField.value === "")) {
+				alert("Данные формы введены неверно: в поле e-mail неверно указан адрес почты")
 			}
-			else {
-				if (((emailField.value.includes(emailPattern))) && (!(emailField === "")) && (!(nameField.value === "")) && (!(numberField.value === "+7"))) {
-					alert("Данные формы введены неверно: в поле e-mail неверно указан адрес почты")
+			else if ((!length===10) && (!emailField.value.includes(emailPattern)) && (!emailField.value === "") && (!namelField.value === "") && (!numberField.value === "")) {
+				alert("Данные формы введены неверно: в поле e-mail неверно указан адрес почты, в поле Телефон неверно указан номер телефона")
 			}
-				else if (((length1 === 10)) && (!(emailField.value.includes(emailPattern))) && (!(emailField.value === "")) && (!(nameField.value === "")) && (!(numberField.value === "+7"))) {
-					alert("Данные формы введены неверно: в поле e-mail неверно указан адрес почты, в поле Телефон неверно указан номер телефона")
-			}
-				else if (((length1 === 10)) && (!(emailField.value === "")) && (!(nameField.value === "")) && (!(numberField.value === "+7"))) {
+			else if ((!length1===10) && (!emailField.value === "") && (!namelField.value === "") && (!numberField.value === "")) {
 				alert("Данные формы введены неверно: в поле Телефон неверно указан номер телефона")
 			}
+			else if ((emailField.value.includes(emailPattern)) && ((length1===10) && (!emailField.value === "") && (!namelField.value === "") && (!numberField.value === ""))) {
+				alert("Уважаемый", nameField,"! Спасибо за оставленные данные, мы свяжемся с вами по телефону", numberField," и отправим письмо на", emailField)
 			}
 		}
 	</script>

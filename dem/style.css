@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 header {
-    margin-top: 2%;
+    padding-top: 2%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 24px;  
+    font-size: 24px; 
+    width: 92%;
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 header ul {
     display: flex;
@@ -23,80 +30,124 @@ body {
     flex-direction: column;
     /*font-size: large;*/
 }
+.qqq{
+    height: 512px;
+    width: 512px;
+    background-image: url("main.png");  
+    justify-content: end; 
+}
+.qqq0 {
+    height: 410px;
+}
+.qqq1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.qqq4{
+    height: 90px; 
+    width: 90px; 
+    background-color: #fff; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
 .ne{
-    /*position: absolute;*/
+    /* position: absolute; */
     margin: auto;
-    margin-top: 3%;
-    background-color: aliceblue;
+    margin-top: 3%; 
+    background-color: #d9d9d9;
     width: 92%;
     color:black;
     display: flex;
+    padding: 2%;
     align-items: center;  
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 40px;
     max-height: 592px;
+    padding-right: 0%;
 }
 .ne1{
+    width: 512px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
-.ne img{
-   max-width:512px;
-}
-
 .ne1 button{
     background-color: red;
     color: white;
-    font-size: 32px;
-    border-radius:10px;
+    border-radius:20px;
+    height: 74px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45.99px;
+    letter-spacing: 0%;
+
 }
 header img{
     width: 64px;
-    margin-left: 2%;
 }
 .dl{
     margin: auto;
     margin-top: 3%;
-    padding: 0;
+    margin-bottom: 3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 30px;
     justify-content: space-around;
     font-size: 32px;
     width: 92%;
     max-height: 140px;
 }
+.z{
+    display: flex;
+}
 .chto{
-    margin-top: 3%;
+    /* margin-top: 3%; */
+    margin: auto    ;
     display: flex;
     flex-direction: column;
     margin-bottom: 3%;
+    width: 87%;
 }
 .chto1, .chto2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.chto img{
-    max-width: 180px;
-    /* align-items: flex-end; */
+.chto1, .chto2 img{
+    width: 35%;
+}
+.chtologo{
+    width: 220px;
 }
 .gen, .rab1, .rab2, .nap {
-    width: fit-content;
+    /* width: fit-content; */
     background-color: #181818;
     display: flex;
     flex-direction: row;
     margin-top: 3%;
+    border-radius: 30px;
+    justify-content: space-evenly;
+    padding: 2%;
 }
+.gen, .rab2{
+    margin-right: 2%
+}
+.rab1, .nap {
+    margin-left: 2%;
+} 
 .gen1, .rab11, .rab21, .nap1{
     width: 35%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
-/* .rab1{
-    width: fit-content;
-} */
 footer img {
     width: 68px;
 }
@@ -129,6 +180,10 @@ h1 {
 .jwl {
     max-width:518px;
     margin-right: 7%;
+    transition: transform 1s;
+}
+.jwl:hover {
+    transform: scale(1.1);
 }
 .rpg {
     font-size:48px;
@@ -140,7 +195,8 @@ h1 {
 .kdg {
     display: flex;
     flex-direction:column;
-    margin-right: 20%;
+    margin-top: 1%;
+    flex-basis: 40%;
 }
 .ytg {
     color: black;
@@ -178,13 +234,25 @@ h1 {
 .sis {
     background-color: white;
     font-size: 24px;
-    max-width: 427px;
+    width: 427px;
     border-radius: 10px;
-    height: 50px;
+    height: 44px;
+    margin: auto;
+    margin-top: 45px;
+}
+.odr {
+    background-color: white;
+    font-size: 24px;
+    width: 427px;
+    border-radius: 10px;
+    height: 44px;
     margin: auto;
 }
 h2 {
     font-size: 64px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 4%;
 }
 .fgt {
     display: flex;
@@ -198,17 +266,27 @@ h2 {
     align-items: center;
 }
 .dpt {
-    color: #000000;
-    background-color: white;
     font-size: 24px;
-    max-width: 427px;
+}
+input{
+	width: 427px;
+    height: 44px;
     border-radius: 10px;
+}
+.tyu{
+	position:relative;
+    color: #000000;
+    font-size: 24px;
+    width: 427px;
     height: 50px;
     margin: auto;
-    
+    margin-bottom: 52px;
+    margin-left: 35px;
 }
-.ftu {
-    color: #CECECE;
+.pri{
+	position:absolute;
+    left: 3px;
+    top:14px;
 }
 .chk {
     color: #000000;
@@ -216,19 +294,32 @@ h2 {
 footer {
     display: flex;
     flex-direction:row;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-bottom: 3%;
 }
 .gvn {
     font-style: italic;
     font-size: 24px;
+    margin-left: 1px;
 }
 .zhp {
     font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 6%;
 }
 .kal {
     font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+    margin-top: 6%;
 }
 .ppp {
     color: #808080;
+    margin-top: 4px;
 }
 .hit {
     max-width: 503px;
@@ -240,7 +331,42 @@ footer {
 .ikl {
     max-width: 543px;
     margin-left: 1%;
+    transition: transform 1s;
+}
+.ikl:hover {
+    transform: scale(1.1);
+
 }
 #tgs {
     margin-bottom: 6px;
+}
+.hit {
+    margin-top: 10px;
+}
+#zap {
+    background-color: #141414;
+}
+#iek {
+    margin-bottom: 12%;
+}
+.uei {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    background-color: #B4B4B4;
+    max-width: 505px;
+    margin-left: 2%;
+    height: 325px;
+    margin-bottom: 8%;
+    border-radius: 20px;
+}
+.rpd {
+    display: flex;
+    align-items: center;
+}
+.ids {
+    margin-top: 20px;
+}
+.dfn {
+    margin-bottom: 42px;
 }
